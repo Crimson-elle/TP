@@ -13,14 +13,14 @@
             <h2 class="text-center mb-4">Regístrate</h2>
             <form>
                 <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre*</label>
+                    <label for="nombre" class="form-label">Nombre<span class="texto-rojo">*</span></label>
                     <input type="text" class="form-control" id="nombre" required>
                     <div class="invalid-feedback">
                         Por favor, ingresa tu nombre.
                     </div>
                 </div>
                 <div class="mb-3">
-                    <label for="email" class="form-label">Email*</label>
+                    <label for="email" class="form-label">Email<span class="texto-rojo">*</span></label>
                     <input type="email" class="form-control" id="email" required>
                     <div class="invalid-feedback">
                         Por favor, ingresa un email válido.
@@ -35,7 +35,7 @@
                     <input type="file" class="form-control" id="imagenPerfil" accept="image/*">
                 </div>
                 <div class="mb-3">
-                    <label for="password" class="form-label">Contraseña*</label>
+                    <label for="password" class="form-label">Contraseña<span class="texto-rojo">*</span></label>
                     <input type="password" class="form-control" id="password" required minlength="6">
                     <div class="invalid-feedback">
                         La contraseña debe tener al menos 6 caracteres.
@@ -43,7 +43,7 @@
                 </div>
                 <div class="mb-3 form-check">
                     <input type="checkbox" class="form-check-input" id="noRobot" required>
-                    <label class="form-check-label" for="noRobot">No soy un robot*</label>
+                    <label class="form-check-label" for="noRobot">No soy un robot<span class="texto-rojo">*</span></label>
                     <div class="invalid-feedback">
                         Por favor, marca esta casilla.
                     </div>
